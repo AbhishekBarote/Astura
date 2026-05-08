@@ -4,12 +4,6 @@ This repository contains the source code for the **AI Internship Assignment: Bas
 
 Astura is an AI-powered banking assistant that retrieves relevant information from a specialized banking dataset and uses a Large Language Model (LLM) to generate smooth, human-like responses.
 
-## 🌟 Features
-- **Local Embeddings**: Uses `sentence-transformers` (`all-MiniLM-L6-v2`) for lightning-fast, offline vectorization of questions.
-- **Intelligent RAG**: Implements Retrieval-Augmented Generation to fetch the most similar banking context using Cosine Similarity.
-- **LLM Integration**: Uses Google's **Gemini 2.5** to synthesize retrieved data into natural, friendly conversational responses.
-- **Context-Aware Suggestions**: Automatically generates highly relevant follow-up questions after every turn.
-- **Premium UI**: Features a beautiful, buttery-smooth Streamlit interface with dark glassmorphism styling, as well as a classic Command-Line Interface (CLI).
 
 ## 🛠️ Tech Stack
 - **Python**
@@ -60,11 +54,3 @@ Here are some sample interactions demonstrating the chatbot's ability to retriev
 
 ### 3. Sample Query 2: "What documents do I need to open an account?"
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/974890d0-3f5f-4859-8b4e-43e4585e5412" />
-
-
-### 4. Out-of-Dataset / General Banking Query
-*(Upload your screenshot to GitHub and put the link here)*
-`![General Query Screenshot](insert-image-link-here)`
-
----
-*Developed for AI Internship Assignment evaluation.*
